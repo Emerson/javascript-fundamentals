@@ -24,7 +24,7 @@ var house = {
 };
 
 house.door;             // closed
-house.openDoor();       // "this" is bound to the house object
+house.openDoor();       // "this" refers to the house object
 house.door;             // open
 
 /*
