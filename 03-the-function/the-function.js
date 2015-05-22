@@ -17,6 +17,23 @@ var sayItSoft = function(word) {
 
 //-- Arguments ------------------------------------------------------------
 
-function someArguments() {
-  
+function someArguments(one, two, three) {
+  debugger;
+  console.log(one);
+  console.log(two);
+  console.log(three);
 }
+
+
+//-- Functions are First Class --------------------------------------------
+
+function add(first, second, callback) {
+  console.log(first + second);
+  if(callback) {
+    callback();
+  }
+}
+
+// add(2, 3, function() {
+//   console.log('Done!');
+// });
