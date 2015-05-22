@@ -1,11 +1,11 @@
 /*
-*   SCOPE
+*   VARIABLE SCOPE
 *   =====
 *   JavaScript has weird variable scoping rules compared to other languages!
 *
 *
-*   1) Variables are scoped to their enclosing function (not to the block)
-*   2) Variables outside of any function are bound to the root scope (e.g. Window).
+*   1) Variables are scoped to their enclosing function (not to their block)
+*   2) Variables declared outside of any function are bound to the root scope (e.g. Window).
 */
 
 
