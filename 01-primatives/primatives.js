@@ -1,18 +1,22 @@
 //-- The 9 Primatives -------------------------------------------------------
 
+// undefined
+
+var theNull = null;
+
 var theString = 'Hello';
 
 var theNumber = 52;
 
 var theBoolean = true;
 
-var theNull = null;
-
 var theAwesomeObject = {
   isAwesome: true,
   name: 'the awesome object',
   age: 100
 };
+
+// -- Technicially objects ------------------------------------------------
 
 var theArray = [1, 'two'];
 
@@ -28,12 +32,3 @@ var theRegex = /howdy/;
 if(false || 0 || "" || null || undefined || NaN) {
   console.log('We never get here...');
 }
-
-
-//-- Passing by Value vs Reference ----------------------------------------
-
-var anotherString = theString;
-anotherString = 'goodbye';
-
-var anotherObject = theAwesomeObject;
-anotherObject.age = 101;
